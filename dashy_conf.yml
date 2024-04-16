@@ -1,0 +1,194 @@
+ appConfig:
+  theme: one-dark
+  layout: vertical
+  iconSize: medium
+  language: en
+pageInfo:
+  title: Homelab
+  description: Homelab Services Dashboard
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
+  footerText: ''
+sections:
+  - name: Media
+    icon: fal fa-play-circle
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Jellyfin
+        description: Media server supporting TV shows, movies, music, and books.
+        icon: >-
+          https://github.com/walkxhub/dashboard-icons/raw/master/png/jellyfin.png
+        url: # enter new url
+        target: newtab
+        id: 0_480_jellyfin
+      - title: YTDL - Material
+        description: Download files from YT and other supported websites
+        icon: >-
+          https://imgs.search.brave.com/-YtNT5BoWqxmDjwakgEUWH1MDX6wkgY4psWSZt5BzY4/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzEz/ODEvUE5HLzUxMi95/b3V0dWJlZGxfOTM1/MjkucG5n
+        url: # enter new url
+        target: newtab
+        id: 1_480_ytdlmaterial
+  - name: Management
+    icon: fal fa-tools
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Open Media Vault
+        description: NAS workbench
+        icon: >-
+          https://github.com/walkxhub/dashboard-icons/raw/master/png/openmediavault.png
+        url: # enter new url
+        target: newtab
+        id: 0_1021_openmediavault
+      - title: Portainer
+        description: Docker container management web GUI
+        icon: >-
+          https://github.com/walkxhub/dashboard-icons/raw/master/png/portainer.png
+        url: # enter new url
+        target: newtab
+        id: 1_1021_portainer
+      - title: Shell in a box
+        description: SSH through web browser into raspberry pi
+        icon: >-
+          https://imgs.search.brave.com/lpFfkMvtQS8QVAgyPiokT6R38QNgtRLJ2EXgrna3CHw/rs:fit:1024:1024:1/g:ce/aHR0cDovL2FsZW1h/bmkuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE1LzAzL1Rl/cm1pbmFsLWljb24u/cG5n
+        url: # enter new url
+        target: newtab
+        id: 2_1021_shellinabox
+      - title: Uptime Kuma
+        description: Monitoring GUI for various services
+        icon: >-
+          https://imgs.search.brave.com/uXpfIXpJIqwRoscWQC8ovPJ1oMf70FheL7f3QQoSaeU/rs:fit:640:640:1/g:ce/aHR0cHM6Ly9kb2Nz/LmNsb3Vkcm9uLmlv/L2ltZy91cHRpbWUt/a3VtYS1sb2dvLnBu/Zw
+        url: # enter new url
+        target: newtab
+        id: 3_1021_uptimekuma
+  - name: Network
+    icon: fal fa-network-wired
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Pi-Hole
+        description: Blocks ads and trackers through DNS sinkhole
+        icon: https://github.com/walkxhub/dashboard-icons/raw/master/png/pihole.png
+        url: # enter new url
+        target: newtab
+        id: 0_746_pihole
+      - title: Zerotier
+        description: Virtual network to access services without port forwarding
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZeroTier_Logo.png/300px-ZeroTier_Logo.png
+        url: https://my.zerotier.com
+        target: newtab
+        id: 1_746_zerotier
+      - title: Tailscale
+        description: 'VPN based off wireguard to access services without port forwarding '
+        icon: >-
+          https://imgs.search.brave.com/p3cOvVdIxmm2T_IkwsnYXzUzbmvs0xpB6NaiJwu3WlQ/rs:fit:1024:1024:1/g:ce/aHR0cHM6Ly9pczMt/c3NsLm16c3RhdGlj/LmNvbS9pbWFnZS90/aHVtYi9QdXJwbGUx/MjQvdjQvODYvOWIv/OWEvODY5YjlhM2Qt/NTJkNi0zNDMwLTc5/MmEtODMxYWRkZmM0/NDRkL0FwcEljb24t/MC0wLTF4X1UwMDdl/bWFya2V0aW5nLTAt/MC0wLTctMC0wLXNS/R0ItMC0wLTAtR0xF/UzJfVTAwMmMwLTUx/Mk1CLTg1LTIyMC0w/LTAucG5nLzE5MjB4/MTA4MGJiLTgwLnBu/Zw
+        url: https://login.tailscale.com
+        target: newtab
+        id: 2_746_tailscale
+      - title: Century Link Admin GUI
+        description: Home internet admin gui
+        icon: >-
+          https://www.brighter-connections.com/wp-content/uploads/2014/12/Wifi-Icon.png
+        url: # enter new url
+        target: newtab
+        id: 3_746_centurylinkadmingui
+  - name: Productivity
+    icon: fal fa-folder
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Filebrowser
+        description: Lightweight web GUI for viewing files from NAS
+        icon: >-
+          https://imgs.search.brave.com/lxt3Al3dPkO46IW2b-mOIDRElDoZjQNxw6Fi0TpXjYU/rs:fit:400:400:1/g:ce/aHR0cHM6Ly9hdmF0/YXJzLmdpdGh1YnVz/ZXJjb250ZW50LmNv/bS91LzM1NzgxMzk1/P3M9NDAwJnY9NA
+        url: # enter new url
+        target: newtab
+        id: 0_1302_filebrowser
+      - title: Code-Server
+        description: Remote VS Code server
+        icon: >-
+          https://mobilemancerblog.blob.core.windows.net/blog/2020/08/vs-code-logo-transp.png
+        url: # enter new url
+        target: newtab
+        id: 1_1302_codeserver
+      - title: Syncthing
+        description: P2P syncing
+        icon: >-
+          https://imgs.search.brave.com/MlaOo5Mf0k3kTKVTN09bKv3Vf94jZieu0ztqWMBfstk/rs:fit:512:512:1/g:ce/aHR0cHM6Ly93d3cu/dW5peG1lbi5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTUv/MDEvU3luY3RoaW5n/LnBuZw
+        url: # enter new url
+        target: newtab
+        id: 2_1302_syncthing
+  - name: Support Links
+    icon: fal fa-question-circle
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Jellyfin Documentation
+        description: Documentation link for Jellyfin
+        url: https://jellyfin.org/docs/
+        id: 0_1310_jellyfindocumentation
+      - title: YTDL - Material GitHub
+        description: GitHub for YTDL - Material
+        url: https://github.com/Tzahi12345/YoutubeDL-Material
+        target: newtab
+        id: 1_1310_ytdlmaterialgithub
+      - title: Pi-Hosted GitHub
+        description: 'GitHub for Pi-Hosted series '
+        url: https://github.com/novaspirit/pi-hosted
+        id: 2_1310_pihostedgithub
+      - title: Dashy GitHub
+        description: GitHub for Dashy Dashboard
+        url: https://github.com/lissy93/dashy
+        id: 3_1310_dashygithub
+      - title: OMV Documentation
+        description: Open media vault's wiki
+        url: https://docs.openmediavault.org/en/stable/
+        id: 4_1310_omvdocumentation
+      - title: Pi-Hole Documentation
+        description: Documentation for Pi-Hole
+        url: https://docs.pi-hole.net/
+        id: 5_1310_piholedocumentation
+  - name: Media Pi
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Media Pi Portainer
+        url: # enter new url
+        target: newtab
+        id: 0_697_mediapiportainer
+      - title: Media Pi SSH
+        url: # enter new url
+        target: newtab
+        id: 1_697_mediapissh
+      - title: Personal Jellyfin
+        url: # enter new url
+        id: 2_697_personaljellyfin
